@@ -1,5 +1,5 @@
 # Gets the version number from the current directory.
-function getver() {
+function version() {
     MIX_FILE=./mix.exs
     NPM_FILE=./package.json
     if test -f "$MIX_FILE"; then
