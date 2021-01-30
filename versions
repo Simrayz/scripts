@@ -1,3 +1,4 @@
+# Gets the version number from the current directory.
 function getver() {
     MIX_FILE=./mix.exs
     NPM_FILE=./package.json
