@@ -1,5 +1,5 @@
 ## Git checkout save local, temporary commits 
-gcl() { 
+function gcl() { 
     echo "### Adding any wip files";
     git add .; 
     echo "### Committing files with a temporary commit";
